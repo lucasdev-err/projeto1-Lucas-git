@@ -1,0 +1,10 @@
+git init                                                         // inicializa um novo repositório
+git add .                                                        // adiciona os arquivo atuais ao próximo commit
+git status                                                       // verifica o status atual dos repositórios
+git commit -m "titulo do commit"                                 // cria um novo commit com uma mensagem
+git push                                                         // envia as atualizações da branch atual para a nuvem
+git branch                                                       // permite listar e ver qual branch está ativa atualmente
+git checkout nome-da-branch                                      // permite mudar para uma nova branch
+git checkout -b "nome da branch de origem" "nome da nova branch" // premite mudar e criar uma nova branch com base em outra
+git merge "branch a receber merge"                               // permite fazer o merge da branch ativa atualmente com outra
+git pull                                                         // atualiza a branch atualmente ativa
