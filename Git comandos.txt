@@ -5,6 +5,6 @@ git commit -m "titulo do commit"                                 // cria um novo
 git push                                                         // envia as atualizações da branch atual para a nuvem
 git branch                                                       // permite listar e ver qual branch está ativa atualmente
 git checkout nome-da-branch                                      // permite mudar para uma nova branch
-git checkout -b "nome da branch de origem" "nome da nova branch" // premite mudar e criar uma nova branch com base em outra
+git checkout -b "nome da nova branch" "nome da branch de origem" // premite mudar e criar uma nova branch com base em outra
 git merge "branch a receber merge"                               // permite fazer o merge da branch ativa atualmente com outra
 git pull                                                         // atualiza a branch atualmente ativa
